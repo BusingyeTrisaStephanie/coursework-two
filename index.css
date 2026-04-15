@@ -47,7 +47,7 @@ table{
 .socials{
     display: flex;
     gap: 20px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     font-weight: 500;
 }
 .social-item {
