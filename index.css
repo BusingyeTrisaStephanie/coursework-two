@@ -1,0 +1,82 @@
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+ }
+ th{
+    border: 2px;
+    background: #2f3e46;
+    color: white;
+    padding: 12px;
+    font-size: 14px;
+ }
+ td{
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #e6e6e6;
+    color: #333;
+ }
+ tr:hover{
+ background-color: #f1f5f9;
+ }
+ .inner-table {
+    margin: auto;
+ }
+ .head{
+    text-align: center;
+ }
+.profile {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+.profile-pic {
+   width: 170px;
+   height: 170px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+.bio{
+    text-align: left;
+    max-width: 700px;
+}
+.socials{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+.social-item {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #555;
+}
+.social-item i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+i.fab {
+    font-size: 30px;
+}
+td i.fab{
+    margin-right: 8px;
+    font-size: 30px;
+}
+.fa-instagram{
+    color: #ff4fa3;
+}
+.fa-x-twitter{
+    color: #000000;
+}
+.fa-whatsapp{
+    color: #25D366;
+}
+.fa-facebook{
+    color: #1877f2;
+}
